@@ -1,6 +1,5 @@
 import { Divider as ChakraDivider, Grid } from "@chakra-ui/react";
 
-
 export function HDivider(){
   return(
     <Grid

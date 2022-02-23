@@ -12,12 +12,12 @@ export function Input({ name, label }: InputProps) {
     { !!label &&  <FormLabel htmlFor={name}> {label} </FormLabel>}
       <ChakraInput
       name={name}
-      type="text"
+      type={"text"}
       focusBorderColor="blue.500"
       bg="gray.900"
       variant="filled"
       _hover={{ bg: 'gray.800' }}
-      size="md"
+      size={"md"}
       >
         {label}
       </ChakraInput>

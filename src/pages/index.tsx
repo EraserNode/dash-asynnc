@@ -89,10 +89,14 @@ export default function SignIn() {
         flexDir="column"
         alignItems="center"
         overflowY="auto"
-        padding={8}
-        height="100vh"
+        height={"100vh"}
       >
-        BHEALTHY SYSTEM
+        <Image
+            height={"100%"}
+            src='/cover.jpeg'
+            alt='logo'
+            objectFit={"cover"}
+          />
       </Flex>
     </Grid>
     // <Flex 

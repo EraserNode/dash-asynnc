@@ -1,13 +1,13 @@
 import { Button, Flex, Grid, Image, Stack, Text } from '@chakra-ui/react'
 import Input from '../components/Form/Input'
 
-export default function Home() {
+export default function SignIn() {
   return (
     <Grid
       backgroundColor="gray.900"
       as="main"
       height="100vh"
-      templateColumns=" 1fr 400px"
+      templateColumns=" 1fr 380px"
       templateRows="1fr"
       templateAreas="
     'form logo'
@@ -26,6 +26,7 @@ export default function Home() {
         flexDir="column"
         alignItems="stretch"
         backgroundColor="gray.700"
+        maxWidth={"380px"}
         padding={16}
         marginTop={0}
       >

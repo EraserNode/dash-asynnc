@@ -13,10 +13,10 @@ export function Input({ name, label }: InputProps) {
       <ChakraInput
       name={name}
       type={"text"}
-      focusBorderColor="blue.500"
-      bg="gray.900"
+      focusBorderColor="red.500"
+      bg="gray.300"
       variant="filled"
-      _hover={{ bg: 'gray.800' }}
+      _hover={{ bg: 'red.700' }}
       size={"md"}
       >
         {label}
